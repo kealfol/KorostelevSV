@@ -1,0 +1,217 @@
+2026-11-23 17:48:46,144 INFO lab6.requests: GET /openapi.json -> 200 (4.40 ms)
+2026-11-23 17:48:46,640 INFO lab6.requests: GET / -> 200 (2.03 ms)
+2026-11-23 17:48:46,643 INFO lab6.requests: GET /info -> 200 (0.54 ms)
+2026-11-23 17:48:46,647 INFO lab6.requests: GET /docs -> 200 (0.20 ms)
+2026-11-23 17:48:46,649 INFO lab6.requests: GET /redoc -> 200 (0.14 ms)
+2026-11-23 17:48:46,653 INFO lab6.requests: GET /openapi.json -> 200 (3.11 ms)
+2026-11-23 17:48:46,658 INFO lab6.requests: GET /items/1 -> 200 (0.84 ms)
+2026-11-23 17:48:46,660 INFO lab6.requests: GET /items/1 -> 200 (0.47 ms)
+2026-11-23 17:48:46,664 WARNING lab6.requests: GET /items/0 -> 422 (0.32 ms)
+2026-11-23 17:48:46,668 WARNING lab6.requests: GET /items/-1 -> 422 (0.24 ms)
+2026-11-23 17:48:46,675 WARNING lab6.requests: GET /items/text -> 422 (0.23 ms)
+2026-11-23 17:48:46,679 WARNING lab6.requests: GET /items/1 -> 422 (0.31 ms)
+2026-11-23 17:48:46,684 INFO lab6.requests: GET /items/1 -> 200 (0.58 ms)
+2026-11-23 17:48:46,688 INFO lab6.items: Item created: id=2
+2026-11-23 17:48:46,689 INFO lab6.requests: POST /items/ -> 200 (1.21 ms)
+2026-11-23 17:48:46,691 INFO lab6.requests: GET /items/2 -> 200 (0.40 ms)
+2026-11-23 17:48:46,695 INFO lab6.items: Item created: id=2
+2026-11-23 17:48:46,696 INFO lab6.requests: POST /items/ -> 200 (0.93 ms)
+2026-11-23 17:48:46,700 WARNING lab6.requests: POST /items/ -> 422 (0.35 ms)
+2026-11-23 17:48:46,702 WARNING lab6.requests: PUT /items/1 -> 422 (0.50 ms)
+2026-11-23 17:48:46,704 INFO lab6.requests: GET /items/1 -> 200 (0.52 ms)
+2026-11-23 17:48:46,708 WARNING lab6.requests: POST /items/ -> 422 (0.40 ms)
+2026-11-23 17:48:46,710 WARNING lab6.requests: PUT /items/1 -> 422 (0.51 ms)
+2026-11-23 17:48:46,712 INFO lab6.requests: GET /items/1 -> 200 (0.48 ms)
+2026-11-23 17:48:46,716 WARNING lab6.requests: POST /items/ -> 422 (0.33 ms)
+2026-11-23 17:48:46,718 WARNING lab6.requests: PUT /items/1 -> 422 (0.33 ms)
+2026-11-23 17:48:46,720 INFO lab6.requests: GET /items/1 -> 200 (0.67 ms)
+2026-11-23 17:48:46,724 WARNING lab6.requests: POST /items/ -> 422 (0.41 ms)
+2026-11-23 17:48:46,726 WARNING lab6.requests: PUT /items/1 -> 422 (0.34 ms)
+2026-11-23 17:48:46,728 INFO lab6.requests: GET /items/1 -> 200 (0.62 ms)
+2026-11-23 17:48:46,733 WARNING lab6.requests: POST /items/ -> 422 (0.47 ms)
+2026-11-23 17:48:46,735 WARNING lab6.requests: PUT /items/1 -> 422 (0.38 ms)
+2026-11-23 17:48:46,736 INFO lab6.requests: GET /items/1 -> 200 (0.52 ms)
+2026-11-23 17:48:46,741 WARNING lab6.requests: POST /items/ -> 422 (0.46 ms)
+2026-11-23 17:48:46,743 WARNING lab6.requests: PUT /items/1 -> 422 (0.44 ms)
+2026-11-23 17:48:46,745 INFO lab6.requests: GET /items/1 -> 200 (0.53 ms)
+2026-11-23 17:48:46,750 WARNING lab6.requests: POST /items/ -> 422 (0.33 ms)
+2026-11-23 17:48:46,751 WARNING lab6.requests: PUT /items/1 -> 422 (0.40 ms)
+2026-11-23 17:48:46,754 INFO lab6.requests: GET /items/1 -> 200 (0.54 ms)
+2026-11-23 17:48:46,758 WARNING lab6.requests: POST /items/ -> 422 (0.44 ms)
+2026-11-23 17:48:46,760 WARNING lab6.requests: PUT /items/1 -> 422 (0.37 ms)
+2026-11-23 17:48:46,762 INFO lab6.requests: GET /items/1 -> 200 (0.55 ms)
+2026-11-23 17:48:46,767 WARNING lab6.requests: POST /items/ -> 422 (0.42 ms)
+2026-11-23 17:48:46,769 WARNING lab6.requests: PUT /items/1 -> 422 (0.35 ms)
+2026-11-23 17:48:46,771 INFO lab6.requests: GET /items/1 -> 200 (0.62 ms)
+2026-11-23 17:48:46,776 WARNING lab6.requests: POST /items/ -> 422 (0.39 ms)
+2026-11-23 17:48:46,778 WARNING lab6.requests: PUT /items/1 -> 422 (0.40 ms)
+2026-11-23 17:48:46,780 INFO lab6.requests: GET /items/1 -> 200 (0.48 ms)
+2026-11-23 17:48:46,784 WARNING lab6.items: Item not found: id=999
+2026-11-23 17:48:46,784 WARNING lab6.requests: GET /items/999 -> 404 (0.62 ms)
+2026-11-23 17:48:46,788 WARNING lab6.items: Item not found for update: id=999
+2026-11-23 17:48:46,789 WARNING lab6.requests: PUT /items/999 -> 404 (0.76 ms)
+2026-11-23 17:48:46,793 INFO lab6.items: Item updated: id=1
+2026-11-23 17:48:46,794 INFO lab6.requests: PUT /items/1 -> 200 (0.96 ms)
+2026-11-23 17:48:46,796 INFO lab6.requests: GET /items/1 -> 200 (0.35 ms)
+2026-11-23 17:48:46,800 INFO lab6.items: Item updated: id=1
+2026-11-23 17:48:46,800 INFO lab6.requests: PUT /items/1 -> 200 (0.83 ms)
+2026-11-23 17:48:46,804 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:48:46,804 WARNING lab6.requests: POST /items/ -> 409 (0.86 ms)
+2026-11-23 17:48:46,806 INFO lab6.items: Item created: id=2
+2026-11-23 17:48:46,807 INFO lab6.requests: POST /items/ -> 200 (0.68 ms)
+2026-11-23 17:48:46,809 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:48:46,809 WARNING lab6.requests: PUT /items/2 -> 409 (0.58 ms)
+2026-11-23 17:48:46,811 INFO lab6.requests: GET /items/2 -> 200 (0.52 ms)
+2026-11-23 17:48:46,816 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:48:46,816 WARNING lab6.requests: POST /items/ -> 409 (0.73 ms)
+2026-11-23 17:48:46,818 INFO lab6.items: Item created: id=2
+2026-11-23 17:48:46,818 INFO lab6.requests: POST /items/ -> 200 (0.65 ms)
+2026-11-23 17:48:46,820 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:48:46,820 WARNING lab6.requests: PUT /items/2 -> 409 (0.56 ms)
+2026-11-23 17:48:46,822 INFO lab6.requests: GET /items/2 -> 200 (0.34 ms)
+2026-11-23 17:48:46,827 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:48:46,827 WARNING lab6.requests: POST /items/ -> 409 (0.69 ms)
+2026-11-23 17:48:46,829 INFO lab6.items: Item created: id=2
+2026-11-23 17:48:46,829 INFO lab6.requests: POST /items/ -> 200 (0.64 ms)
+2026-11-23 17:48:46,831 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:48:46,831 WARNING lab6.requests: PUT /items/2 -> 409 (0.57 ms)
+2026-11-23 17:48:46,833 INFO lab6.requests: GET /items/2 -> 200 (0.38 ms)
+2026-11-23 17:48:46,837 INFO lab6.items: Item created: id=2
+2026-11-23 17:48:46,838 INFO lab6.requests: POST /items/ -> 200 (0.84 ms)
+2026-11-23 17:48:46,840 WARNING lab6.items: Duplicate item name, conflicting id=2
+2026-11-23 17:48:46,840 WARNING lab6.requests: POST /items/ -> 409 (0.59 ms)
+2026-11-23 17:48:46,842 INFO lab6.items: Item updated: id=2
+2026-11-23 17:48:46,842 INFO lab6.requests: PUT /items/2 -> 200 (0.71 ms)
+2026-11-23 17:48:46,844 INFO lab6.items: Item created: id=3
+2026-11-23 17:48:46,844 INFO lab6.requests: POST /items/ -> 200 (0.63 ms)
+2026-11-23 17:48:46,849 INFO lab6.items: Item created: id=2
+2026-11-23 17:48:46,850 WARNING lab6.items: Duplicate item name, conflicting id=2
+2026-11-23 17:48:46,850 WARNING lab6.requests: POST /items/ -> 409 (1.13 ms)
+2026-11-23 17:48:46,850 INFO lab6.requests: POST /items/ -> 200 (1.82 ms)
+2026-11-23 17:48:46,861 INFO lab6.requests: GET /items/1 -> 200 (0.58 ms)
+2026-11-23 17:48:46,862 WARNING lab6.items: Item not found: id=999
+2026-11-23 17:48:46,863 WARNING lab6.requests: GET /items/999 -> 404 (0.52 ms)
+2026-11-23 17:48:46,864 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:48:46,865 WARNING lab6.requests: POST /items/ -> 409 (0.58 ms)
+2026-11-23 17:48:46,866 WARNING lab6.requests: POST /items/ -> 422 (0.32 ms)
+2026-11-23 17:48:46,871 INFO lab6.items: Item created: id=2
+2026-11-23 17:48:46,871 INFO lab6.requests: POST /items/ -> 200 (0.87 ms)
+2026-11-23 17:48:46,874 INFO lab6.items: Item updated: id=2
+2026-11-23 17:48:46,874 INFO lab6.requests: PUT /items/2 -> 200 (0.81 ms)
+2026-11-23 17:50:27,004 INFO lab6.requests: GET / -> 200 (1.55 ms)
+2026-11-23 17:50:27,006 INFO lab6.requests: GET /info -> 200 (0.45 ms)
+2026-11-23 17:50:27,007 INFO lab6.requests: GET /items/1 -> 200 (0.72 ms)
+2026-11-23 17:50:27,008 WARNING lab6.items: Item not found: id=999
+2026-11-23 17:50:27,008 WARNING lab6.requests: GET /items/999 -> 404 (0.39 ms)
+2026-11-23 17:50:27,009 WARNING lab6.requests: GET /items/0 -> 422 (0.20 ms)
+2026-11-23 17:50:27,011 INFO lab6.items: Item created: id=2
+2026-11-23 17:50:27,011 INFO lab6.requests: POST /items/ -> 200 (1.07 ms)
+2026-11-23 17:50:27,012 WARNING lab6.items: Duplicate item name, conflicting id=2
+2026-11-23 17:50:27,012 WARNING lab6.requests: POST /items/ -> 409 (0.48 ms)
+2026-11-23 17:50:27,014 INFO lab6.items: Item updated: id=2
+2026-11-23 17:50:27,014 INFO lab6.requests: PUT /items/2 -> 200 (0.71 ms)
+2026-11-23 17:50:27,015 INFO lab6.requests: GET /items/2 -> 200 (0.30 ms)
+2026-11-23 17:50:27,016 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:50:27,016 WARNING lab6.requests: PUT /items/2 -> 409 (0.67 ms)
+2026-11-23 17:50:27,017 WARNING lab6.items: Item not found for update: id=999
+2026-11-23 17:50:27,018 WARNING lab6.requests: PUT /items/999 -> 404 (0.47 ms)
+2026-11-23 17:50:27,019 WARNING lab6.requests: POST /items/ -> 422 (0.31 ms)
+2026-11-23 17:50:57,782 INFO lab6.requests: GET / -> 200 (2.23 ms)
+2026-11-23 17:50:57,784 INFO lab6.requests: GET /info -> 200 (0.48 ms)
+2026-11-23 17:50:57,788 INFO lab6.requests: GET /docs -> 200 (0.22 ms)
+2026-11-23 17:50:57,790 INFO lab6.requests: GET /redoc -> 200 (0.11 ms)
+2026-11-23 17:50:57,795 INFO lab6.requests: GET /openapi.json -> 200 (3.19 ms)
+2026-11-23 17:50:57,800 INFO lab6.requests: GET /items/1 -> 200 (0.96 ms)
+2026-11-23 17:50:57,802 INFO lab6.requests: GET /items/1 -> 200 (0.43 ms)
+2026-11-23 17:50:57,807 WARNING lab6.requests: GET /items/0 -> 422 (0.29 ms)
+2026-11-23 17:50:57,811 WARNING lab6.requests: GET /items/-1 -> 422 (0.37 ms)
+2026-11-23 17:50:57,815 WARNING lab6.requests: GET /items/text -> 422 (0.27 ms)
+2026-11-23 17:50:57,820 WARNING lab6.requests: GET /items/1 -> 422 (0.29 ms)
+2026-11-23 17:50:57,824 INFO lab6.requests: GET /items/1 -> 200 (0.59 ms)
+2026-11-23 17:50:57,829 INFO lab6.items: Item created: id=2
+2026-11-23 17:50:57,829 INFO lab6.requests: POST /items/ -> 200 (1.08 ms)
+2026-11-23 17:50:57,831 INFO lab6.requests: GET /items/2 -> 200 (0.36 ms)
+2026-11-23 17:50:57,835 INFO lab6.items: Item created: id=2
+2026-11-23 17:50:57,836 INFO lab6.requests: POST /items/ -> 200 (0.86 ms)
+2026-11-23 17:50:57,840 WARNING lab6.requests: POST /items/ -> 422 (0.35 ms)
+2026-11-23 17:50:57,842 WARNING lab6.requests: PUT /items/1 -> 422 (0.52 ms)
+2026-11-23 17:50:57,844 INFO lab6.requests: GET /items/1 -> 200 (0.55 ms)
+2026-11-23 17:50:57,848 WARNING lab6.requests: POST /items/ -> 422 (0.37 ms)
+2026-11-23 17:50:57,850 WARNING lab6.requests: PUT /items/1 -> 422 (0.36 ms)
+2026-11-23 17:50:57,852 INFO lab6.requests: GET /items/1 -> 200 (0.57 ms)
+2026-11-23 17:50:57,857 WARNING lab6.requests: POST /items/ -> 422 (0.34 ms)
+2026-11-23 17:50:57,858 WARNING lab6.requests: PUT /items/1 -> 422 (0.33 ms)
+2026-11-23 17:50:57,860 INFO lab6.requests: GET /items/1 -> 200 (0.52 ms)
+2026-11-23 17:50:57,865 WARNING lab6.requests: POST /items/ -> 422 (0.39 ms)
+2026-11-23 17:50:57,867 WARNING lab6.requests: PUT /items/1 -> 422 (0.46 ms)
+2026-11-23 17:50:57,869 INFO lab6.requests: GET /items/1 -> 200 (0.71 ms)
+2026-11-23 17:50:57,874 WARNING lab6.requests: POST /items/ -> 422 (0.41 ms)
+2026-11-23 17:50:57,876 WARNING lab6.requests: PUT /items/1 -> 422 (0.41 ms)
+2026-11-23 17:50:57,878 INFO lab6.requests: GET /items/1 -> 200 (0.54 ms)
+2026-11-23 17:50:57,883 WARNING lab6.requests: POST /items/ -> 422 (0.40 ms)
+2026-11-23 17:50:57,885 WARNING lab6.requests: PUT /items/1 -> 422 (0.44 ms)
+2026-11-23 17:50:57,887 INFO lab6.requests: GET /items/1 -> 200 (0.66 ms)
+2026-11-23 17:50:57,892 WARNING lab6.requests: POST /items/ -> 422 (0.44 ms)
+2026-11-23 17:50:57,894 WARNING lab6.requests: PUT /items/1 -> 422 (0.38 ms)
+2026-11-23 17:50:57,896 INFO lab6.requests: GET /items/1 -> 200 (0.63 ms)
+2026-11-23 17:50:57,901 WARNING lab6.requests: POST /items/ -> 422 (0.43 ms)
+2026-11-23 17:50:57,903 WARNING lab6.requests: PUT /items/1 -> 422 (0.47 ms)
+2026-11-23 17:50:57,905 INFO lab6.requests: GET /items/1 -> 200 (0.55 ms)
+2026-11-23 17:50:57,910 WARNING lab6.requests: POST /items/ -> 422 (0.36 ms)
+2026-11-23 17:50:57,912 WARNING lab6.requests: PUT /items/1 -> 422 (0.45 ms)
+2026-11-23 17:50:57,914 INFO lab6.requests: GET /items/1 -> 200 (0.53 ms)
+2026-11-23 17:50:57,918 WARNING lab6.requests: POST /items/ -> 422 (0.34 ms)
+2026-11-23 17:50:57,920 WARNING lab6.requests: PUT /items/1 -> 422 (0.36 ms)
+2026-11-23 17:50:57,922 INFO lab6.requests: GET /items/1 -> 200 (0.47 ms)
+2026-11-23 17:50:57,927 WARNING lab6.items: Item not found: id=999
+2026-11-23 17:50:57,927 WARNING lab6.requests: GET /items/999 -> 404 (0.66 ms)
+2026-11-23 17:50:57,931 WARNING lab6.items: Item not found for update: id=999
+2026-11-23 17:50:57,932 WARNING lab6.requests: PUT /items/999 -> 404 (0.95 ms)
+2026-11-23 17:50:57,936 INFO lab6.items: Item updated: id=1
+2026-11-23 17:50:57,936 INFO lab6.requests: PUT /items/1 -> 200 (0.87 ms)
+2026-11-23 17:50:57,938 INFO lab6.requests: GET /items/1 -> 200 (0.43 ms)
+2026-11-23 17:50:57,942 INFO lab6.items: Item updated: id=1
+2026-11-23 17:50:57,943 INFO lab6.requests: PUT /items/1 -> 200 (0.96 ms)
+2026-11-23 17:50:57,947 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:50:57,947 WARNING lab6.requests: POST /items/ -> 409 (0.73 ms)
+2026-11-23 17:50:57,949 INFO lab6.items: Item created: id=2
+2026-11-23 17:50:57,949 INFO lab6.requests: POST /items/ -> 200 (0.75 ms)
+2026-11-23 17:50:57,951 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:50:57,952 WARNING lab6.requests: PUT /items/2 -> 409 (0.59 ms)
+2026-11-23 17:50:57,954 INFO lab6.requests: GET /items/2 -> 200 (0.39 ms)
+2026-11-23 17:50:57,958 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:50:57,958 WARNING lab6.requests: POST /items/ -> 409 (0.84 ms)
+2026-11-23 17:50:57,960 INFO lab6.items: Item created: id=2
+2026-11-23 17:50:57,960 INFO lab6.requests: POST /items/ -> 200 (0.62 ms)
+2026-11-23 17:50:57,963 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:50:57,963 WARNING lab6.requests: PUT /items/2 -> 409 (0.72 ms)
+2026-11-23 17:50:57,965 INFO lab6.requests: GET /items/2 -> 200 (0.38 ms)
+2026-11-23 17:50:57,969 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:50:57,969 WARNING lab6.requests: POST /items/ -> 409 (0.72 ms)
+2026-11-23 17:50:57,971 INFO lab6.items: Item created: id=2
+2026-11-23 17:50:57,972 INFO lab6.requests: POST /items/ -> 200 (0.63 ms)
+2026-11-23 17:50:57,973 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:50:57,974 WARNING lab6.requests: PUT /items/2 -> 409 (0.67 ms)
+2026-11-23 17:50:57,975 INFO lab6.requests: GET /items/2 -> 200 (0.37 ms)
+2026-11-23 17:50:57,980 INFO lab6.items: Item created: id=2
+2026-11-23 17:50:57,980 INFO lab6.requests: POST /items/ -> 200 (0.81 ms)
+2026-11-23 17:50:57,982 WARNING lab6.items: Duplicate item name, conflicting id=2
+2026-11-23 17:50:57,982 WARNING lab6.requests: POST /items/ -> 409 (0.58 ms)
+2026-11-23 17:50:57,984 INFO lab6.items: Item updated: id=2
+2026-11-23 17:50:57,985 INFO lab6.requests: PUT /items/2 -> 200 (0.71 ms)
+2026-11-23 17:50:57,987 INFO lab6.items: Item created: id=3
+2026-11-23 17:50:57,987 INFO lab6.requests: POST /items/ -> 200 (0.68 ms)
+2026-11-23 17:50:57,992 INFO lab6.items: Item created: id=2
+2026-11-23 17:50:57,992 WARNING lab6.items: Duplicate item name, conflicting id=2
+2026-11-23 17:50:57,993 WARNING lab6.requests: POST /items/ -> 409 (1.19 ms)
+2026-11-23 17:50:57,993 INFO lab6.requests: POST /items/ -> 200 (1.95 ms)
+2026-11-23 17:50:58,006 INFO lab6.requests: GET /items/1 -> 200 (0.68 ms)
+2026-11-23 17:50:58,008 WARNING lab6.items: Item not found: id=999
+2026-11-23 17:50:58,009 WARNING lab6.requests: GET /items/999 -> 404 (0.53 ms)
+2026-11-23 17:50:58,011 WARNING lab6.items: Duplicate item name, conflicting id=1
+2026-11-23 17:50:58,011 WARNING lab6.requests: POST /items/ -> 409 (0.67 ms)
+2026-11-23 17:50:58,013 WARNING lab6.requests: POST /items/ -> 422 (0.40 ms)
+2026-11-23 17:50:58,018 INFO lab6.items: Item created: id=2
+2026-11-23 17:50:58,018 INFO lab6.requests: POST /items/ -> 200 (0.91 ms)
+2026-11-23 17:50:58,020 INFO lab6.items: Item updated: id=2
+2026-11-23 17:50:58,021 INFO lab6.requests: PUT /items/2 -> 200 (0.67 ms)
